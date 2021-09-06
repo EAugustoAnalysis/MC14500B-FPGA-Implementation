@@ -1,5 +1,6 @@
 # MC14500B FPGA Implementation
 __Motivation:__
+
 This project was a fun learning project. I read about the Motorola MC14500B on Hackaday, and fell in love with the idea of a 1-bit processor that was so easily described using a few logic gates while remaining powerful enough to implement an educational computer on. I originally had a fun project planned for this where I hooked up a bunch of these in parallel and used them in a SIMD configuration, but I figured out that the inout nature of the data port wasn't compatible with the version of Yosys used on the TinyFPGA. I could've moved this to Quartus but I had gotten bored. I thought I'd just release the project as is.
 
 This processor was written using APIO's  synthesis and simulation toolchain. It was written in one night, so don't expect the signals to match up perfectly, but I tried to stay as true to the original documentation and patent as possible. If the testbench looks terrible, it's because it is. I basically wrote the testbench to test the pathing and routing and trusted that the LU instructions were written correctly. If I go back and rewrite this in Silice, I'll do a better testbench.
