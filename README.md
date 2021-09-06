@@ -21,6 +21,7 @@ If you're looking for a bit more of a serious implementation, I'd check out the 
 * Memory - The memory that stores instructions and data has 4 bit addressing and data
 
 __Resources:__
+
 Testbenching: 
 * Verilog inout port testing - https://electronics.stackexchange.com/questions/556859/verilog-testbench-for-inout
 
