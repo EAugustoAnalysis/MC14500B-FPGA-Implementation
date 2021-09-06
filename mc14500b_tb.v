@@ -70,6 +70,9 @@ clk=~clk;
 end
 
 initial begin
+$dumpfile("mc14500b_tb.vcd"); 
+$dumpvars(0, mc14500b_tb);
+
 #20;
 rst=1;
 if(!RTN&&!JMP&&!FLGO&&!FLGF&&!write&&!RR)
@@ -399,7 +402,7 @@ $display("OEN works according to previous STO test");
 else
 $display("ONE failed");
 
-$stop;
+$finish;
 end
 
 
