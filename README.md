@@ -28,8 +28,8 @@ Testbenching:
 
 MC14500B stuff:
 * Hackaday - https://hackaday.com/2020/02/01/what-everyone-else-did-with-eight-bits-the-germans-did-with-only-one/
-* MC14500B Industrial Control Unit Handbook (great for signals diagrams) - http://www.bitsavers.org/components/motorola/14500/MC14500B_Industrial_Control_Unit_Handbook_1977.pdf
-* Industrial Control Unit MC14500B (Catalog Advert) - www.brouhaha.com/~eric/retrocomputing/motorola/mc14500b/mc14500brev3.pdf
+* MC14500B Industrial Control Unit Handbook (great for signals diagrams, systems ideas, and instructions) - http://www.bitsavers.org/components/motorola/14500/MC14500B_Industrial_Control_Unit_Handbook_1977.pdf
+* Industrial Control Unit MC14500B (catalog advert with instruction listing) - www.brouhaha.com/~eric/retrocomputing/motorola/mc14500b/mc14500brev3.pdf
 * US Patent - https://patents.google.com/patent/US4153942
 * Ken Shirriff's reverse engineering project - http://www.righto.com/2021/02/a-one-bit-processor-explained-reverse.html
 * Recommended Program Counter - https://www.onsemi.com/pdf/datasheet/mc14516b-d.pdf
