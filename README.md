@@ -13,7 +13,7 @@ __Files:__
 
 __Missing:__
 
-I didn't include a few of the features required to build a system around the MC14500B. I wanted to make this an "instantiate and go" type project where if anyone wants to do something fun like build a WDR-1 on an FPGA, they can just plop it into whatever architecture they want. See the 
+I didn't include a few of the features required to build a system around the MC14500B. I wanted to make this an "instantiate and go" type project where if anyone wants to do something fun like build a WDR-1 on an FPGA, they can just plop it into whatever architecture they want. See the ICU Handbook for more info on system implementation ideas:
 
 If you're looking for a bit more of a serious implementation, I'd check out the linurs source below for their block-based FPGA implementation, assembler, and simulator.
 
@@ -28,12 +28,12 @@ Testbenching:
 * Verilog inout port testing - https://electronics.stackexchange.com/questions/556859/verilog-testbench-for-inout
 
 MC14500B stuff:
-* Hackaday - https://hackaday.com/2020/02/01/what-everyone-else-did-with-eight-bits-the-germans-did-with-only-one/
+* Hackaday Inspiration - https://hackaday.com/2020/02/01/what-everyone-else-did-with-eight-bits-the-germans-did-with-only-one/
 * MC14500B Industrial Control Unit Handbook (great for signals diagrams, systems ideas, and instructions) - http://www.bitsavers.org/components/motorola/14500/MC14500B_Industrial_Control_Unit_Handbook_1977.pdf
 * Industrial Control Unit MC14500B (catalog advert with instruction listing) - www.brouhaha.com/~eric/retrocomputing/motorola/mc14500b/mc14500brev3.pdf
 * US Patent - https://patents.google.com/patent/US4153942
 * Ken Shirriff's reverse engineering project - http://www.righto.com/2021/02/a-one-bit-processor-explained-reverse.html
-* Recommended Program Counter - https://www.onsemi.com/pdf/datasheet/mc14516b-d.pdf
+* MC14516B Program Counter - https://www.onsemi.com/pdf/datasheet/mc14516b-d.pdf
 
 Other Examples of MC14500B Implementations (not necessarily used as resources here, but I wanted to honor prior work):
 * Another example, logic block based FPGA implementation, simulator, discrete design, resource for learning, assembler - https://www.linurs.org/mc14500.html
