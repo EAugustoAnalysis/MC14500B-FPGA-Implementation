@@ -16,8 +16,8 @@ I didn't include a few of the features required to build a system around the MC1
 
 If you're looking for a bit more of a serious implementation, I'd check out the linurs source below for their block-based FPGA implementation, assembler, and simulator.
 
- The following, required 
-* MC14516B Program Counter - Just a normal 4 bit binary counter
+ The following are required for a system implementation:
+* MC14516B or equivalent Program Counter - Just a normal 4 bit binary counter
 * Memory - The memory that stores instructions and data has 4 bit addressing and data
 
 __Resources:__
