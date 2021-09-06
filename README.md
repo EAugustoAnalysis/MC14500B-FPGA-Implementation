@@ -13,7 +13,7 @@ __Files:__
 
 __Missing:__
 
-I didn't include a few of the features required to build a system around the MC14500B. I wanted to make this an "instantiate and go" type project where if anyone wants to do something fun like build a WDR-1 on an FPGA, they can just plop it in to whatever architecture they want. See the 
+I didn't include a few of the features required to build a system around the MC14500B. I wanted to make this an "instantiate and go" type project where if anyone wants to do something fun like build a WDR-1 on an FPGA, they can just plop it into whatever architecture they want. See the 
 
 If you're looking for a bit more of a serious implementation, I'd check out the linurs source below for their block-based FPGA implementation, assembler, and simulator.
 
