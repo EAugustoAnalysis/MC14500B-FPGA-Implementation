@@ -19,7 +19,7 @@ If you're looking for a bit more of a serious implementation, I'd check out the 
 
  The following are required for any implementation, as the processor lacks them:
 * MC14516B or equivalent Program Counter - Just a normal 4 bit binary counter, easily implemented in verilog, traditionally for complex implementations you string a few together
-* 4 bit Program nemory - Memory that stores instructions and has 4 bit (or more) addressing and data
+* 4 bit Program nemory - Memory that stores instructions and has 4 bit addressing and 4+ bit data
 * Some kind of branch handler - The jmp and rtn instructions don't do much without a memory branch handler
 
 __Resources:__
