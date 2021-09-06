@@ -1,4 +1,4 @@
-# MC14500B-FPGA-Implementation
+# MC14500B FPGA Implementation
 __Motivation:__
 This project was a fun learning project. I read about the Motorola MC14500B on Hackaday, and fell in love with the idea of a 1-bit processor that was so easily described using a few logic gates while remaining powerful enough to implement an educational computer on. I originally had a fun project planned for this where I hooked up a bunch of these in parallel and used them in a SIMD configuration, but I figured out that the inout nature of the data port wasn't compatible with the version of Yosys used on the TinyFPGA. I could've moved this to Quartus but I had gotten bored. I thought I'd just release the project as is.
 
@@ -12,13 +12,14 @@ __Files:__
 
 __Missing:__
 
-I didn't include a few of the features required to build a system around the MC14500B. I wanted to make this an "instantiate and go" type project where if anyone wants to do something fun like build a WDR-1 on an FPGA, they can just plop it in to whatever architecture they want.
+I didn't include a few of the features required to build a system around the MC14500B. I wanted to make this an "instantiate and go" type project where if anyone wants to do something fun like build a WDR-1 on an FPGA, they can just plop it in to whatever architecture they want. See the 
 
 If you're looking for a bit more of a serious implementation, I'd check out the linurs source below for their block-based FPGA implementation, assembler, and simulator.
 
- The following are required for a system implementation:
-* MC14516B or equivalent Program Counter - Just a normal 4 bit binary counter
-* Memory - The memory that stores instructions and data has 4 bit addressing and data
+ The following are required for any implementation, as the processor lacks them:
+* MC14516B or equivalent Program Counter - Just a normal 4 bit binary counter, easily implemented in verilog
+* 4 bit Program nemory - Memory that stores instructions and has 4 bit addressing and data
+* Some kind of branch handler - The jmp and rtn instructions don't do much without a memory branch handler
 
 __Resources:__
 
@@ -26,6 +27,7 @@ Testbenching:
 * Verilog inout port testing - https://electronics.stackexchange.com/questions/556859/verilog-testbench-for-inout
 
 MC14500B stuff:
+* Hackaday - https://hackaday.com/2020/02/01/what-everyone-else-did-with-eight-bits-the-germans-did-with-only-one/
 * MC14500B Industrial Control Unit Handbook (great for signals diagrams) - http://www.bitsavers.org/components/motorola/14500/MC14500B_Industrial_Control_Unit_Handbook_1977.pdf
 * Industrial Control Unit MC14500B (Catalog Advert) - www.brouhaha.com/~eric/retrocomputing/motorola/mc14500b/mc14500brev3.pdf
 * US Patent - https://patents.google.com/patent/US4153942
